@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fuctions", "Fuctions.vcxproj", "{632397F7-A5E8-4903-BDCB-B870A432C69C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7119A170-44A2-4159-BA7A-47F584A35A75} = {7119A170-44A2-4159-BA7A-47F584A35A75}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AR", "..\AR\AR.vcxproj", "{7119A170-44A2-4159-BA7A-47F584A35A75}"
 EndProject
