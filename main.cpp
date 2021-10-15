@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <Windows.h>
 using namespace std;
 
@@ -15,7 +15,7 @@ void main()
 
 	setlocale(LC_ALL, "Russian");
 	int a, b;
-	cout << "Ââåäèòå äâà ÷èñëà: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð°: ";
 	cin >> a >> b;
 	int c = Add(a, b);
 	cout << c << endl;
@@ -26,20 +26,20 @@ void main()
 }
 
 int Add(int a, int b)
-{ //Addition - ñëîæåíèå
+{ //Addition - ÑÐ»Ð¾Ð¶ÐµÐ½Ð¸Ðµ
 	int c = a + b;
 	return c;
 }
 int Sub(int a, int b)
-{ //Subtraction - âû÷èòàíèå
+{ //Subtraction - Ð²Ñ‹Ñ‡Ð¸Ñ‚Ð°Ð½Ð¸Ðµ
 	return a - b;
 }
 int Mul(int a, int b)
-{ //Multiplication - óìíîæåíèå
+{ //Multiplication - ÑƒÐ¼Ð½Ð¾Ð¶ÐµÐ½Ð¸Ðµ
 	return a * b;
 }
 double Div(int a, int b)
-{ //Division - äåëåíèå
+{ //Division - Ð´ÐµÐ»ÐµÐ½Ð¸Ðµ
 	return (double)a / b;
 }
 
